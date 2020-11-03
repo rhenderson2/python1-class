@@ -1,0 +1,15 @@
+# homework assignment section 3-8
+five_places = ["Switzerland", "Italy", "France", "England", "Sweden"]
+print(five_places)
+print(sorted(five_places))
+print(five_places)
+print(sorted(five_places,reverse=True))
+print(five_places)
+five_places.reverse()
+print(five_places)
+five_places.reverse()
+print(five_places)
+five_places.sort()
+print(five_places)
+five_places.sort(reverse=True)
+print(five_places)
