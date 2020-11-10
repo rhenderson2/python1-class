@@ -3,7 +3,7 @@
 # Doing Extra Credit from email in lieu of 5-13 below.
 print("*** Prime numbers from 1 - 100. ***\n")
 
-temporary_list = {}
+temporary_list = []
 current_number = 1
 key = 1
 while current_number < 100:
@@ -13,15 +13,7 @@ while current_number < 100:
         key += 1
         continue
 
-    for item in set(temporary_list.values()):
-        print(temporary_list)
-
-
-
-
-
-
-
+        print(set(temporary_list))
 
 
 
